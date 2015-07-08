@@ -1,4 +1,4 @@
-# MyCodeForCallingExtension
+# Calling Chrome Extension using Selenium WebdriverJs
 For Automated testing of Chrome extension using Selenium WebdriverJs
 Test cases are written in NodeJs, MochaJs and Selenium WebdriverJs
 *- This test contains 
