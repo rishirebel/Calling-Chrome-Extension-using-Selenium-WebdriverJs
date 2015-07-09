@@ -19,7 +19,7 @@ test.describe ('Chrome Extension Test Using Selenium WebdriverJs', function () {
 		//You can Load the CRX file for a perticular chrome extension by using chrome extension source viewer(https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin)
 		//Download the zipped file from the above given CRX link and unzip it
 		//Then goto chrome://extensions/ on your chrome browser and select Pack Extension button
-		//It will ask fro the Extension Root Directory
+		//It will ask for the Extension Root Directory
 		//click on browse and select the folder where you unzipped the CRX extension file
 		//Then click on Pack extension
 		//It will then give you a popup containg the address of the Extension containing the .crx file and Key file with .pem 
