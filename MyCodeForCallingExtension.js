@@ -28,6 +28,8 @@ test.describe ('Chrome Extension Test Using Selenium WebdriverJs', function () {
 		var driver = new webdriver.Builder ().withCapabilities (webdriver.Capabilities.chrome ()).setChromeOptions (options).build ();
 		//Timelag for 3 seconds is given to preven the ChromeDriver crash
 		driver.sleep (3000);
+		driver.executeScript("scroll(90,542);");
+		//This is used for scrolling the page as sometimes the element is present but not clickable so by using this it can be done
 		//This ID is not present in your default Chrome Browser. It should be taken from ChromeDriver Browser. It can be viwed in chrome://extensions/ by selecting developer mode
 		//The undergiven ID will not work with your code as it was generated in my browser for SOME ChromeExtension
 		driver.get ('chrome-extension://gkcfcdfidgpddiodgjnomehnfpdnfgcm/login.html');
