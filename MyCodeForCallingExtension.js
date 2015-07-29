@@ -32,6 +32,12 @@ test.describe ('Chrome Extension Test Using Selenium WebdriverJs', function () {
 		//This is used for scrolling the page as sometimes the element is present but not clickable so by using this it can be done
 		//This ID is not present in your default Chrome Browser. It should be taken from ChromeDriver Browser. It can be viwed in chrome://extensions/ by selecting developer mode
 		//The undergiven ID will not work with your code as it was generated in my browser for SOME ChromeExtension
+		driver.manage().window().maximize();
+		//This is used to maximize the browser window  
+		driver.navigate().back();
+		//This command is used for navigating back to the previous page
+		driver.navigate().forward();
+		//This command is used for navigating forward to the previous page
 		driver.get ('chrome-extension://gkcfcdfidgpddiodgjnomehnfpdnfgcm/login.html');
 		//Timelag of 6 seconds is given to load the screen, else elliments are not visible error can be encountered 
 		driver.sleep (6000);
